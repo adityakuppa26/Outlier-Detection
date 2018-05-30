@@ -12,11 +12,11 @@ The Gaussian Distribution is used , which is a familiar bell-shaped curve that c
 The Gaussian Distribution is parameterized by a mean and a variance.  
 Mu, or μ, describes the center of the curve, called the mean. The width of the curve is described by sigma, or σ, called the standard deviation.  
 The full function is as follows:  
-![gaussian](Gaussian.png)
+![gaussian](Gaussian.PNG)
   
 **Algorithm**
   
-![algorithm](Algorithm.png)
+![algorithm](Algorithm.PNG)
 
 The implementation of the algorithm in a nutshell :  
 ```
