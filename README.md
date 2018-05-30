@@ -41,4 +41,11 @@ The full function is as follows:
 7) If test set error is low, algorithm works fine . Otherwise , try to develop more distinguishing features and
    try to choose appropriate threshold.
 ```
-
+  
+**Evaluation Metrics**
+  
+Possible evaluation metrics (see "Machine Learning System Design" section):  
+ * True positive, false positive, false negative, true negative.  
+ * Precision/recall  
+ * F1 score  
+ Note that we use the cross-validation set to choose parameter ϵ  
