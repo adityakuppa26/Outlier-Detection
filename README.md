@@ -44,8 +44,8 @@ The full function is as follows:
   
 **Evaluation Metrics**
   
-Possible evaluation metrics (see "Machine Learning System Design" section):  
+Possible evaluation metrics :  
  * True positive, false positive, false negative, true negative.  
  * Precision/recall  
  * F1 score  
- Note that we use the cross-validation set to choose parameter ϵ  
+  
