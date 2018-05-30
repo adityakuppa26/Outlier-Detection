@@ -18,7 +18,7 @@ The full function is as follows:
   
 ![algorithm](Algorithm.PNG)
 
-**Implementation (in a nutshell) : ** 
+**Implementation (in a nutshell)** 
 ```
 1) Divide the given training data set into three parts : 
   a) training set (consisting of about 60% of dataset , usually all of them being the normal or non-anomalous
