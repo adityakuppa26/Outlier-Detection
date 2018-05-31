@@ -1,3 +1,6 @@
+% selects the best threshold value and F1 score based on the cross-validation set
+
+
 function [bestEpsilon bestF1] = selectThreshold(yval, pval)
 %SELECTTHRESHOLD Find the best threshold (epsilon) to use for selecting
 %outliers
@@ -13,8 +16,8 @@ F1 = 0;
 stepsize = (max(pval) - min(pval)) / 1000;
 for epsilon = min(pval):stepsize:max(pval)
     
-    % ====================== YOUR CODE HERE ======================
-    % Instructions: Compute the F1 score of choosing epsilon as the
+   
+    % 		    Compute the F1 score of choosing epsilon as the
     %               threshold and place the value in F1. The code at the
     %               end of the loop will compare the F1 score for this
     %               choice of epsilon and set it to be the best epsilon if
