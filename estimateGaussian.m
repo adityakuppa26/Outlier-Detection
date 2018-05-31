@@ -1,3 +1,6 @@
+% estimates the mean and variance of the training set 
+
+
 function [mu sigma2] = estimateGaussian(X)
 %ESTIMATEGAUSSIAN This function estimates the parameters of a 
 %Gaussian distribution using the data in X
