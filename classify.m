@@ -1,3 +1,5 @@
+% assigns labels to the test examples based on the threshold and probability density
+
 function [p] = classi(pvaltest,epsilon)
 
 p=zeros(size(pvaltest,1),1);
