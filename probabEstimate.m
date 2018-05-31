@@ -1,3 +1,5 @@
+% computes the gaussian probability distribution for cross-validation and test sets
+
 function [pval] = probabEstimate(Xcv,mu,sigma2)
 
 pval=zeros(size(Xcv,1),1);
